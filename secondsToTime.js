@@ -25,6 +25,7 @@ let formatSecondsToTime = function (s, minSegments = 2, separator = ':') {
 	return tt.join(separator)
 }
 
+// examples
 // console.log( formatSecondsToTime(60*60*24+1) ) 	// 1 day and one second, outputs 1:00:00:01
 // console.log( formatSecondsToTime(60*60*24-1) ) 	// 1 day minus one second, outputs 23:59:59 
 // console.log( formatSecondsToTime(60*59) ) 		// 59 minutes, outputs 59:00
