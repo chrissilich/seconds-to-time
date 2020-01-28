@@ -17,7 +17,7 @@ Input a number of seconds, get back a time formatted like dd:hh:mm:ss
 Put in 1 day and one second, it returns `"1:00:00:01"`
 
 `formatSecondsToTime(60*60*24-1)`
-Put in 1 day minus one second, it returns `"23:59:59 "`
+Put in 1 day minus one second, it returns `"23:59:59"`
 
 `formatSecondsToTime(60*59)`
 Put in 59 minutes, it returns `"59:00"`
